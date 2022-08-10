@@ -1,0 +1,120 @@
+.moons-sun-container{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    display: grid;
+    place-content: center;
+    z-index: -1;
+}
+.moons-sun{
+    background: var(--sun-orange);
+    height: 700px;
+    width: 700px;
+    border-radius: 100%;
+    position: absolute;
+    left: -410px;
+    top: -555px;
+    transition: 1s;
+}
+.moons-content-container{
+    display: flex;
+    width: fit-content;
+    max-width: 400px;
+    margin: 2rem auto;
+}
+.y-labels-container{
+    position: relative;
+    display: flex;
+}
+.y-labels-bar{
+    width: 1.2px;
+    height: 441px;
+    border-radius: 10px;
+    background: #c4c4c4;
+    align-self: end;
+}
+
+.moon-planets-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:fit-content;
+    height: 460px;
+}
+
+.moons-content-container ul{
+    list-style: none;
+    padding: 0 0 0 5px;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.moons-content-container ul li{
+    padding: 0;
+    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.moon{
+    height: 11px;
+    width: 11px;
+    background: var(--shaded-gray);
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1px;
+}
+
+
+.moon-planet-p {
+    display: flex;
+}
+.moon-planet-p p:nth-of-type(1){
+    margin-right: 3px;
+}
+
+
+
+
+/* POSTIION OF MOON ELEMENTS PN GRAPH */
+.moon-li-earth{
+    top: 52.5px;
+}
+.moon-li-mars{
+    top: 58px;
+}
+.moon-li-jupiter{
+    top: 62.5px;
+}
+.moon-li-saturn{
+    top: 28.5px;
+}
+.moon-li-uranus{
+    top: 7.5px;
+}
+
+@media only screen and (min-width: 850px) {
+    .moons-content-wrapper{
+        max-width: 650px;
+    }
+    
+    .moon-li-earth{
+        top: 54px;
+    }
+    .moon-li-mars{
+        top: 58px;
+    }
+    .moon-li-jupiter{
+        top: 63px;
+    }
+    .moon-li-saturn{
+        top: 27px;
+    }
+    .moon-li-uranus{
+        top: 6px;
+    }
+}

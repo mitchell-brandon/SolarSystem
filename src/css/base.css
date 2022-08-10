@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+ /* font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+:root {
+    --space-black: #202229;
+    --silver: #ffff;
+    --white: #ffff;
+    --shaded-gray: #C4C4C4;
+    --sun-orange: #EF8354;
+    --mercury-red: #C73E1D;
+    --venus-brown: #7E5920;
+    --earth-blue: #16BCF3;
+    --mars-red: #B6244F;
+    --saturn-purple: #673C62;
+    --jupiter-green: #357266;
+    --neptune-blue: #3F8EFC;
+    --uranus-blue: #AFD0FD;
+
+
+
+    --header-font: 'Quicksand', sans-serif;
+}
+
+
+body{
+    background: center/cover url("../imgs/starrybackground.png");
+    font-family: var(--header-font);
+    margin: 0;  
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    padding: 0; 
+}
+
+.body-content{
+    position: relative;
+    border: solid .1px transparent;
+    padding: 0;
+}

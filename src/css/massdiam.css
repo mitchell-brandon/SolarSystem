@@ -1,0 +1,32 @@
+.massdiam-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+  z-index: -1;
+}
+
+.massdiam-sun {
+  height: clamp(700px, 100vw, 1440px);
+  width: clamp(700px, 100vw, 1440px);
+  border-radius: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.massdiam-data-container{
+  margin:200px auto 0 auto;
+}
+.sun-p-wrapper{
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+.sun-p{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
