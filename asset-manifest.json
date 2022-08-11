@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SolarSystem/static/css/main.a8d39a62.css",
-    "main.js": "/SolarSystem/static/js/main.b79b0f82.js",
-    "static/js/787.53af7ac3.chunk.js": "/SolarSystem/static/js/787.53af7ac3.chunk.js",
-    "static/media/distances_bar.png": "/SolarSystem/static/media/distances_bar.007320d82a0cb0280e44.png",
-    "static/media/starrybackground.png": "/SolarSystem/static/media/starrybackground.7b2aeadcd864446a751c.png",
-    "index.html": "/SolarSystem/index.html",
-    "main.a8d39a62.css.map": "/SolarSystem/static/css/main.a8d39a62.css.map",
-    "main.b79b0f82.js.map": "/SolarSystem/static/js/main.b79b0f82.js.map",
-    "787.53af7ac3.chunk.js.map": "/SolarSystem/static/js/787.53af7ac3.chunk.js.map"
+    "main.css": "/static/css/main.344eb023.css",
+    "main.js": "/static/js/main.936fcdb6.js",
+    "static/js/787.53af7ac3.chunk.js": "/static/js/787.53af7ac3.chunk.js",
+    "static/media/distances_bar.png": "/static/media/distances_bar.007320d82a0cb0280e44.png",
+    "static/media/starrybackground.png": "/static/media/starrybackground.7b2aeadcd864446a751c.png",
+    "index.html": "/index.html",
+    "main.344eb023.css.map": "/static/css/main.344eb023.css.map",
+    "main.936fcdb6.js.map": "/static/js/main.936fcdb6.js.map",
+    "787.53af7ac3.chunk.js.map": "/static/js/787.53af7ac3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8d39a62.css",
-    "static/js/main.b79b0f82.js"
+    "static/css/main.344eb023.css",
+    "static/js/main.936fcdb6.js"
   ]
 }
